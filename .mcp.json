@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "addition-mcp-server": {
+      "command": "node",
+      "args": ["server/dist/index.js"],
+      "cwd": "/Users/dengrui/Desktop/demo"
+    }
+  }
+}
