@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . && tsc --noEmit",
     "preview": "vite preview",
-    "tslint": "tsc --noEmit",
     "mcp:build": "cd server && pnpm run build",
     "mcp:start": "cd server && pnpm start"
   },
   "dependencies": {
+    "clsx": "^2.1.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
